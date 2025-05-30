@@ -5,7 +5,7 @@ experiment_name: usedcars-pricing-prediction  # Provide the experiment name
 description: Training Pipeline to predict used cars pricing using Decision Tree classifier  # Provide the description for the pipeline
 
 inputs:
-  raw_data:
+  input:
     type: uri_file
     path: azureml:used-cars-data@latest
 
